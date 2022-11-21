@@ -4,7 +4,7 @@ AirBnB_clone_v3 API
 """
 
 from os import getenv
-from flask import Flask, make_response
+from flask import Flask, jsonify, make_response
 from models import storage
 from api.v1.views import app_views
 
