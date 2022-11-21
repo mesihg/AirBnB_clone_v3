@@ -9,7 +9,7 @@ from sqlalchemy.orm import relationship
 
 
 class User(BaseModel, Base):
-    """Representation of a user """
+    """ Representation of a user """
     if models.storage_t == 'db':
         __tablename__ = 'users'
         __table_args__ = ({'mysql_default_charset': 'latin1'})

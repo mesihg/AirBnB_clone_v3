@@ -21,7 +21,7 @@ if models.storage_t == 'db':
 
 
 class Place(BaseModel, Base):
-    """Representation of Place """
+    """ Representation of Place """
     if models.storage_t == 'db':
         __tablename__ = 'places'
         __table_args__ = ({'mysql_default_charset': 'latin1'})

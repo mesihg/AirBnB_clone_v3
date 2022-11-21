@@ -8,7 +8,7 @@ from sqlalchemy import Column, String, ForeignKey
 
 
 class Review(BaseModel, Base):
-    """Representation of Review """
+    """ Representation of Review """
     if models.storage_t == 'db':
         __tablename__ = 'reviews'
         __table_args__ = ({'mysql_default_charset': 'latin1'})
