@@ -77,8 +77,6 @@ class DBStorage:
 
     def get(self, cls, id):
         """ get an object with id"""
-        def get(self, cls, id):
-        """ get an object with id"""
         if cls not in classes.values():
             return None
         objects = self.__session.query(classes[cls])
