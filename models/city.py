@@ -9,7 +9,7 @@ from sqlalchemy.orm import relationship
 
 
 class City(BaseModel, Base):
-    """Representation of city """
+    """ Representation of city """
     if models.storage_t == "db":
         __tablename__ = 'cities'
         __table_args__ = ({'mysql_default_charset': 'latin1'})

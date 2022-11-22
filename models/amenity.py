@@ -9,7 +9,7 @@ from sqlalchemy.orm import relationship
 
 
 class Amenity(BaseModel, Base):
-    """Representation of Amenity """
+    """ Representation of Amenity """
     if models.storage_t == 'db':
         __tablename__ = 'amenities'
         __table_args__ = ({'mysql_default_charset': 'latin1'})
